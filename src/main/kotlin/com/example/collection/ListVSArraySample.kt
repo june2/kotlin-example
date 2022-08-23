@@ -8,8 +8,8 @@ fun main() {
     list.plus(4)
     println(list.size)
 
-    val longList = listOf<Int>(1L, 2L, 3L) // error
-    println(list.size)
+//    val longList = listOf<Int>(1L, 2L, 3L) // error
+//    println(list.size)
 
     val array = arrayOf<Number>(1, 2, 3)
     array[3] = 4 // error
