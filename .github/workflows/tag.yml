@@ -1,3 +1,4 @@
+name: echo tag Name
 on:
   push:
     tags:
