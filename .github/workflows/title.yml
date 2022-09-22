@@ -1,8 +1,8 @@
 name: echo pr title
 on:
   push:
-  pull_request:
-    types: [opened, synchronize]
+    branches:
+      - prod
 
 jobs:
   build:
